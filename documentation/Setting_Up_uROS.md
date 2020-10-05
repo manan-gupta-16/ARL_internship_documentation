@@ -13,3 +13,9 @@
 * Prerequisites require installing ROS 2 Foxy FitzRoy from [here](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/)
 
 * The micro-ROS setup finally works through a simple ping-pong application to test the system. It concludes with a test for a multi-node application.
+
+### Caution:
+
+* When setting up the micro-ROS and ROS2 environment on your computer system, make sure you setup ROS2 to start with.
+
+* If you setup micro-ROS for linux based applications, then you might face issues while setting up the environment for the Zephyr emulator directly. In such a case, you can use a Docker container to setup the Zephyr emulator, to prevent clashes with the other setup for linux.
