@@ -18,4 +18,4 @@
 
 * When setting up the micro-ROS and ROS2 environment on your computer system, make sure you setup ROS2 to start with.
 
-* If you setup micro-ROS for linux based applications, then you might face issues while setting up the environment for the Zephyr emulator directly. In such a case, you can use a Docker container to setup the Zephyr emulator, to prevent clashes with the other setup for linux.
+* If you first setup micro-ROS for linux based applications or already have it installed on your computer, then you might face issues while setting up the environment for the Zephyr emulator directly using the steps above. In such a case, you can use a Docker container to setup the Zephyr emulator, to prevent clashes with the other setup for linux.
