@@ -1,6 +1,6 @@
 ## Literature Review and Background:
 
-* The underwater and surface robots like STARFISH and NUSwan deployed the in-house developed DSAAV and JC2 framework. These frameworks are custom-built for the vehicles. It is costly to maintain a software framework and this distracts from focusing on robotics research. This poses a problem to harware modularity in the vehicles as the framwework is specifically designed for each vehicle and its application. In other words, each time a modification has to be done, or a new vehicle is designed, the software frameworks have to either be modified a lot or they have to be built from the ground-up. Hence, the idea is to explore using a framework that promotes hardware modularity for the different subsystems.
+* The underwater and surface robots like STARFISH and NUSwan deployed the in-house developed DSAAV and JC2 framework. These frameworks are custom-built and require a high maintenance cost. It is costly to maintain a software framework and this distracts from focusing on robotics research. Hence, the idea is to explore using a framework that promotes a low maintenance cost while still providing the benefits that were supported by DSAAV.
 
 * Another point kept in mind is that the vehicles' different subsystems use microcontroller boards and sentuators (sensors and actuators) to handle their tasks. The vehicle has one central on-board processing unit (for example, a Jetson Nano) which can handle the computationally extensive tasks. 
 
