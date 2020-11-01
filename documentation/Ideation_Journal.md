@@ -25,11 +25,11 @@
 
 ### PX4 Autopilot Software
 
-* PX4 is an open-source research platform drones, underwater vehicles and boats [Documentation](https://docs.px4.io/master/en/index.html)
+* PX4 is an open-source research platform drones, underwater vehicles and boats. [Documentation](https://docs.px4.io/master/en/index.html)
 
 * Looking towards more complex systems, the PX4 platform will become a subsystem in a larger system, such as one using ROS2. Hence, a bridge is implemented that allows PX4 uORB (Object Request Broker) publisher/subscriber architecture to connect to RTPS protocol participants over the same DDS standard layer. px4_ros_com is a ROS2 package for bridging PX4 and ROS2 throug a micro-RTPS bridge. [Package Link](https://github.com/PX4/px4_ros_com)
 
-* ![PX4 to ROS2]()
+* ![PX4 to ROS2](https://github.com/manan-gupta-16/ARL_internship_documentation/blob/master/documentation/Images/PX4_to_ROS2.png)
 
 * Instead of the FastRTPS protocol being used for the bridge, the Micro XRCE-DDS can be used. Advantages of bringing DDS to PX4:
     * Sacalable architecture
@@ -39,11 +39,11 @@
 
 * A second version of the PX4-ROS2 bridge shown above is implemented with micro XRCE-DDS as follows:
 
-* ![Bridge version 2]()
+* ![Bridge version 2](https://github.com/manan-gupta-16/ARL_internship_documentation/blob/master/documentation/Images/PX4-ROS%40_Bridge_v2.png)
 
 * This also allows us to bring in support for micro-ROS based applications, using the micro-ROS XRCE-DDS agent and client
 
-* ![micro-ROS and PX4 bridge]()
+* ![micro-ROS and PX4 bridge](https://github.com/manan-gupta-16/ARL_internship_documentation/blob/master/documentation/Images/microROS-PX4_bridge.png)
 
 ### Other Points:
 
