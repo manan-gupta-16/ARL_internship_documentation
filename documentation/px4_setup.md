@@ -42,7 +42,7 @@
 * The Fast RTPS has dependencies on the following: 
     * Asio ad TinyXML2 libraries
     * OpenSSL
-* To install these, run the following commands:
+* To install these, run the following commands:  
 `sudo apt install libasio-dev libtinyxml2-dev`\
 `sudo apt install libssl-dev`
 
@@ -52,7 +52,7 @@
 `cd ~/FastRTPS-1.8.2`  
 `mkdir build`    
 
-* After this, execute the following commands: 
+* After this, execute the following commands:   
 `cmake -DTHIRDPARTY=ON -DSECURITY=ON -DCOMPILE_EXAMPLES=ON`  
 `make`  
 `sudo make install`  
